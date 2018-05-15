@@ -1,0 +1,92 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>Pikasack Gaming</title>
+	
+	<link rel="apple-touch-icon" sizes="57x57" href="icon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="icon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="icon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="icon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="icon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="icon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="icon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="icon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="icon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="icon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="icon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png">
+	<link rel="manifest" href="icon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="icon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+	
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+	<link rel="stylesheet" href="style.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+	<div class="header-grid">
+	
+	<div class="logo"><a href="index.html"><img src="images/logo.svg"></a> </div>
+	
+	<div class="title">
+	<p><span id="title-pikasack">Pikasack</span> <span id="title-gaming">Gaming</span> <br /> <span id="title-with">with iAsianRice and Unirift</span> <br /> <span id="title-page1">-Surviv.io-</span></p></div>
+	
+	<div class="links" id="myLinks">
+	<a href="index.html">Home</a><span class="linkLine">|</span>
+	<a href="members.html">The Members</a><span class="linkLine">|</span>
+	<a href="about.html">Where to Find Us</a><span class="linkLine">|</span>
+	<div class="dropdown">
+				<button class="dropbtn">More Pages
+					<i class="fa fa-caret-down"></i>
+				</button>
+				<div class="dropdown-content">
+					<a href="games.html">Games We Play</a>
+					<a href="featured.html">Featured Clips</a>
+					<a href="clicktest.html">Click Test</a>
+				</div>
+			</div>
+	<a href="games.html" class="mobileA">Games We Play</a>
+	<a href="featured.html" class="mobileA">Featured Clips</a>
+	<a href="clicktest.html" class="mobileA">Click Test</a>
+	<!-- <a href="javascript:void(0);" style="font-size:20px;" class="icon" onclick="myFunction()">&#9776;</a> -->
+		<div class="hamburger" onclick="myFunction(this)">
+		  <div class="bar1"></div>
+		  <div class="bar2"></div>
+		  <div class="bar3"></div>
+		</div>
+	</div>
+		<script>
+	function myFunction(y) {
+		y.classList.toggle("change");
+		var x = document.getElementById("myLinks");
+		if (x.className === "links") {
+			x.className += " responsive";
+		} else {
+			x.className = "links";
+		}
+	}
+	</script>
+	
+	</div>
+	
+	<!-- Hey Webmaster! Place this html code where you'd like the game to appear. -->
+<iframe src="http://www.silvergames.com/en/surviv-io/iframe" width="100%" height="900" style="margin:0;padding:0;border:0" allowFullscreen></iframe>
+<p style="text-align:center">More <a href="https://www.silvergames.com/en/t/survival">Survival Games</a> on Silvergames.com!</p>
+<!-- End of game embed code -->
+	
+	
+</body>
+
+</html>
