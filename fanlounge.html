@@ -7,7 +7,7 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
-	<title>Pikasack Gaming - Members</title>
+	<title>Pikasack Gaming - Fan Lounge</title>
 	
 	<link rel="apple-touch-icon" sizes="57x57" href="icon/apple-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="icon/apple-icon-60x60.png">
@@ -40,13 +40,12 @@
 	
 	<div class="logo"><a href="index.html"><img src="images/logo.svg"></a> </div>
 	
-	<div class="title"><center>
-	<p><span id="title-pikasack">Pikasack</span> <span id="title-gaming">Gaming</span> <br /> <span id="title-with">with iAsianRice and Unirift</span> <br /> <span id="title-page1">-The</span> <span id=
-	"title-page2">Members-</span></p></center></div>
+	<div class="title">
+	<p><span id="title-pikasack">Pikasack</span> <span id="title-gaming">Gaming</span> <br /> <span id="title-with">with iAsianRice and Unirift</span> <br /> <span id="title-page1">-Fan </span><span id="title-page2">Lounge-</span></p></div>
 	
 	<div class="links" id="myLinks">
 	<a href="index.html">Home</a><span class="linkLine">|</span>
-	<a class="active" href="members.html">The Members</a><span class="linkLine">|</span>
+	<a href="members.html">The Members</a><span class="linkLine">|</span>
 	<a href="about.html">Where to Find Us</a><span class="linkLine">|</span>
 	<div class="dropdown">
 				<button class="dropbtn">More Pages
@@ -56,42 +55,41 @@
 					<a href="games.html">Games We Play</a>
 					<a href="featured.html">Featured Clips</a>
 					<a href="clicktest.html">Click Test</a>
-					<a href="fanlounge.html">Fan Lounge</a>
+					<a class="active" href="fanlounge.html">Fan Lounge</a>
 				</div>
 			</div>
 	<a href="games.html" class="mobileA">Games We Play</a>
 	<a href="featured.html" class="mobileA">Featured Clips</a>
 	<a href="clicktest.html" class="mobileA">Click Test</a>
-	<a href="fanlounge.html" class="mobileA">Fan Lounge</a>
-	<div class="hamburger" onclick="myFunction(this)">
+	<a href="fanlounge.html" class="mobileA active">Fan Lounge</a>
+		<div class="hamburger" onclick="myFunction(this)">
 		  <div class="bar1"></div>
 		  <div class="bar2"></div>
 		  <div class="bar3"></div>
+		</div>
 	</div>
 	</div>
-	</div>
-		
-	<div class="membersbox-grid">
 	
-		<div class="pikasack-avatar"><img src="images/pikasack.png"></div>
-		<div class="pikasack-info">
-			<h1>Pikasack:</h1>
-			<p>The main leader of the group, and the one who organizes everything from the Youtube Channel, to the Discord Server, to even this website. Pikasack has always wanted to share the games he plays, as well as what he thinks of them, as well as the latest innovations in the Gaming World. He is always looking forward to what the future holds for gaming, and wants to experience everything there is to experience first-hand, and provide entertainment to all of his fans at the same time.</p>
-		</div>
-
-		<div class="iasianrice-avatar"><img src="images/iasianrice.png"></div>
-		<div class="iasianrice-info">
-			<h1>iAsianRice:</h1>
-			<p>The one who likes rice, and he shoots anybody who gets in the way of his rice. iAsianRice has been through many different phases throughout his internet gaming career, he went from being someone who watches people play to one of the best video game players on the internet. He always wants to play a fair game with everyone, but doesn't hesitate to bring his best to give his team the upper-hand in whatever situation they are in. He's also a great mentor and is always contributing ideas to the group, as well as other people online.</p>
-		</div>
-
-		<div class="unirift-avatar"><img src="images/unirift.png"></div>
-		<div class="unirift-info">
-			<h1>Unirift:</h1>
-			<p>The one who plays with strategy and loves longer range combat. Unlike Pikasack and iAsianRice, Unirift likes to think of all the possible tactics he could use while in the heat of the actions, picking the best tactic that will help him and his team live on to keep fighting any battle. Overall, no one would want to approach him head on in battle, unless they feel like losing. Unirift always puts up a fight, but is always willing to share his secrets if you ask nicely!</p>
-		</div>
-
+	<div class="login">
+		<form class="loginform" method="post" action="action.php">
+		
+			<fieldset class="loginborder">
+				<legend><h2 class="logintitle">Fan Lounge Login</h2></legend>
+				
+				<label for="uname">Username:</label>
+				<br>
+				<input type="text" id="uname" name="username" placeholder="Enter Username" maxlength="20" required>
+				<br>
+				<label for="pass">Password:</label>
+				<br>
+				<input type="password" id="pass" name="password" placeholder="Enter Password" maxlength="20" required>
+				<br>
+			<input type="submit" value="Submit">
+			</fieldset>
+		
+		</form>
 	</div>
+	
 	<script src="scripts/main.js"></script>
 </body>
 
